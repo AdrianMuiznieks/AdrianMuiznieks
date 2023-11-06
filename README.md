@@ -8,7 +8,7 @@
 
 <hr>
 
-<input type="checkbox"> <- Tick for fun
+<input type="checkbox"> - Tick for fun
 
 <!---
 AdrianMuiznieks/AdrianMuiznieks is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
