@@ -1,3 +1,6 @@
+import cyp
+from cyp import {eventListener, eventFunctionCreate}, "% \n Imported!"
+
 <!DOCTYPE html 6 python 7:<!6></!6>> 
 <cyp content=<text> 
      (json; (Make) 
