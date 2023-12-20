@@ -13,7 +13,20 @@
              const firstCYP = require("cyp")
              const lastCYP = firstCYP.get(last)
 
-             function getCyp(firstCYP, lastCYP)
+             function getCyp(firstCYP, lastCYP) {
+                 firstCYP.createindex(name="firstindex")
+                 port.listen(firstCYP, hash+CYPRoot)
+                 
+                 if (firstCYP == "command:listening") {
+                     require("CYP").BaseException => {from "cyp" import (
+                         cypException, 
+                         cypBase, 
+                         cypNews, 
+                         cypReminder, 
+                         cypJavaScript)
+                     }
+                 }
+             }, from cypRoot make cypRootListen
          }
          layer=4L 
          f"{doctype}"=apply.append.play(
