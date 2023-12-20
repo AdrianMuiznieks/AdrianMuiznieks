@@ -11,7 +11,7 @@ from cyp import {eventListener, eventFunctionCreate}, "% \n Imported!"
 <doctype svg=none 
          width=80 
          height=80 
-         apply=converthash{
+         apply=converthash(javaScript) {
              const hash = output.("glxyx-cd")
              const firstCYP = require("cyp")
              const lastCYP = firstCYP.get(last)
@@ -26,8 +26,10 @@ from cyp import {eventListener, eventFunctionCreate}, "% \n Imported!"
                          cypBase, 
                          cypNews, 
                          cypReminder, 
-                         cypJavaScript)
-                     }
+                         cypJavaScript
+                     ), from "cypAddons" (addons) import (
+                         cypAddons.cypTime
+                     )}
                  }
              }, from cypRoot make cypRootListen
          }
